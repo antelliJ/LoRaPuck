@@ -2323,6 +2323,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Hackclub Symbols:OLED_0.96_128x64"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.112 9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED_0.96_128x64"
+				(at 14.224 -10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hackclub Footprints:OLED_0.96_128x64"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.96-1_Series_Datasheet.pdf"
+				(at 43.18 -14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SSD1306 OLED module, 0.96 inch, 128x64, I2C"
+				(at 26.67 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EastRising"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "ER?OLEDM0.91?1x?I2C*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OLED_0.96_128x64_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4819,36 +4987,34 @@
 		(uuid "0d9e05af-6752-4cf7-abbc-4c069a70a6b5")
 	)
 	(no_connect
+		(at 142.24 50.8)
+		(uuid "158558e6-e547-4ca5-b8c7-bdca20df0c11")
+	)
+	(no_connect
+		(at 46.99 69.85)
+		(uuid "5af35f7c-c27a-451e-964f-af6da289ea10")
+	)
+	(no_connect
 		(at 142.24 53.34)
-		(uuid "4003327b-63a0-4dbe-8cc8-b434c3c80909")
+		(uuid "81967b88-12f2-4966-b6e9-eebb3c66d533")
 	)
 	(no_connect
 		(at 142.24 45.72)
-		(uuid "5b3cd78a-4cfa-495b-a2a1-cac75ecb16c9")
-	)
-	(no_connect
-		(at 142.24 50.8)
-		(uuid "8b76a349-fe4d-4394-88ef-62433fcd3b79")
-	)
-	(no_connect
-		(at 170.18 50.8)
-		(uuid "8ea39a4f-3bce-42b0-a902-0e4fdb6c542c")
-	)
-	(no_connect
-		(at 170.18 45.72)
-		(uuid "a9603471-97fa-46c1-8274-aacf551d1a28")
-	)
-	(no_connect
-		(at 142.24 43.18)
-		(uuid "d1aff5c8-8784-4aaf-a8dc-8c2cc8af719e")
-	)
-	(no_connect
-		(at 142.24 48.26)
-		(uuid "ee115a86-6c75-410c-ac8f-ad2ed770e236")
+		(uuid "c7a1a68b-65ea-4cc5-808e-52dbb1fc5b15")
 	)
 	(no_connect
 		(at 170.18 35.56)
 		(uuid "fc53d324-7994-4f70-9417-52c3571bc762")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 180.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009f2e26-247c-4259-ba81-92f724bb8c16")
 	)
 	(wire
 		(pts
@@ -4869,6 +5035,16 @@
 			(type default)
 		)
 		(uuid "02289ea3-d5c8-473e-9bf0-83441fb96293")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cd2cfc-cccb-4be3-aa47-05bb754e36ee")
 	)
 	(wire
 		(pts
@@ -4929,6 +5105,16 @@
 			(type default)
 		)
 		(uuid "0f379756-f5d6-4b6f-9822-9845484210e4")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 142.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10905d50-6c8b-400e-967b-cb073d62ff4c")
 	)
 	(wire
 		(pts
@@ -5012,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 40.64) (xy 177.8 34.29)
+			(xy 180.34 40.64) (xy 180.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5202,13 +5388,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 142.24 38.1)
+			(xy 170.18 50.8) (xy 180.34 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47704c9c-4786-4ed5-b73c-4af07c10f8a4")
+		(uuid "443e29de-4271-46d7-b405-5d538c62e841")
 	)
 	(wire
 		(pts
@@ -5279,6 +5465,26 @@
 			(type default)
 		)
 		(uuid "542b0155-4244-407f-8a95-584f51fec2dc")
+	)
+	(wire
+		(pts
+			(xy 125.73 43.18) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58230ee7-387c-483d-878b-01c8f233bbac")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61997957-82ce-4e88-86be-bf654d9bfa64")
 	)
 	(wire
 		(pts
@@ -5382,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 48.26) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b55dcf8-f436-43a7-b0c8-5a7079af653b")
+	)
+	(wire
+		(pts
 			(xy 210.82 90.17) (xy 220.98 90.17)
 		)
 		(stroke
@@ -5412,7 +5628,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 40.64) (xy 177.8 40.64)
+			(xy 170.18 40.64) (xy 180.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5449,16 +5665,6 @@
 			(type default)
 		)
 		(uuid "9cd8db17-8bf5-4eae-99db-1e09c730973f")
-	)
-	(wire
-		(pts
-			(xy 125.73 35.56) (xy 142.24 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1d64aff-9cba-4268-b978-b44f446d796e")
 	)
 	(wire
 		(pts
@@ -5622,23 +5828,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 43.18) (xy 180.34 43.18)
+			(xy 125.73 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c77b0809-9b00-49a4-bc80-46d117568a47")
+		(uuid "c1910a14-872b-4750-85ba-aca986cb6873")
 	)
 	(wire
 		(pts
-			(xy 125.73 40.64) (xy 142.24 40.64)
+			(xy 115.57 113.03) (xy 128.27 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbbbb3c5-25da-4a45-8f2b-0c433214ffb8")
+		(uuid "c3ea59ee-a5da-48ac-b67b-283e0cd6cf31")
 	)
 	(wire
 		(pts
@@ -5659,6 +5865,16 @@
 			(type default)
 		)
 		(uuid "dc2ebfd5-903c-4cdd-9067-45e57169d476")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded39d2d-2146-4a30-b4a9-041400824e96")
 	)
 	(wire
 		(pts
@@ -5712,6 +5928,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 35.56) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ec75cc-afab-4d85-8fb5-961b07f19eb9")
+	)
+	(wire
+		(pts
 			(xy 46.99 67.31) (xy 58.42 67.31)
 		)
 		(stroke
@@ -5729,16 +5955,6 @@
 			(type default)
 		)
 		(uuid "f6bf18f0-743a-4b1b-8eba-a12798923d63")
-	)
-	(wire
-		(pts
-			(xy 170.18 53.34) (xy 181.61 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9693eec-e59f-4f31-9dd5-417db76a6265")
 	)
 	(wire
 		(pts
@@ -5781,7 +5997,7 @@
 		(uuid "09a64b43-78a6-4442-b4ec-123fb1e72edb")
 	)
 	(label "SPI_MISO"
-		(at 125.73 35.56 0)
+		(at 125.73 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5870,6 +6086,16 @@
 		)
 		(uuid "45a7e030-83cf-4736-a119-fb8509796a23")
 	)
+	(label "OLED_SCL"
+		(at 115.57 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "540d0517-9557-42e8-994b-132526872bda")
+	)
 	(label "SX_RFI_N"
 		(at 101.6 69.85 180)
 		(effects
@@ -5901,7 +6127,7 @@
 		(uuid "5ce72957-ba2f-4823-9942-d93f83334da7")
 	)
 	(label "SX_CS"
-		(at 125.73 40.64 0)
+		(at 125.73 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5909,6 +6135,16 @@
 			(justify left bottom)
 		)
 		(uuid "5d4607d1-bae0-4283-8484-cd000aef41af")
+	)
+	(label "OLED_SDA"
+		(at 180.34 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6000af74-c5b5-4aab-b313-ea7d101bc00e")
 	)
 	(label "SPI_MOSI"
 		(at 46.99 85.09 0)
@@ -5941,7 +6177,7 @@
 		(uuid "6979a862-2638-47b8-a5e6-ce333d9345db")
 	)
 	(label "SX_NRST"
-		(at 144.78 62.23 0)
+		(at 125.73 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6011,7 +6247,7 @@
 		(uuid "8ecf8d0d-e686-424f-a3fa-ef19d019f299")
 	)
 	(label "SX_DIO1"
-		(at 181.61 53.34 180)
+		(at 180.34 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6041,7 +6277,7 @@
 		(uuid "9e16958f-6862-41ac-b6ef-640a93cb7933")
 	)
 	(label "SX_BUSY"
-		(at 152.4 66.04 180)
+		(at 180.34 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6051,7 +6287,7 @@
 		(uuid "a2daad2f-3e2e-421e-b11e-16ee84e8d691")
 	)
 	(label "SPI_MOSI"
-		(at 125.73 38.1 0)
+		(at 125.73 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6071,7 +6307,7 @@
 		(uuid "a7e98439-9995-4e61-969c-a5a966064ccd")
 	)
 	(label "SPI_CLK"
-		(at 180.34 43.18 180)
+		(at 180.34 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6110,6 +6346,26 @@
 		)
 		(uuid "c4a304c2-cf07-4daf-9dc7-57aa6667ffca")
 	)
+	(label "OLED_SCL"
+		(at 125.73 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d01a7641-b7e6-4c66-b71f-86c4b3cab7c8")
+	)
+	(label "OLED_SDA"
+		(at 115.57 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d415cacd-e47c-457c-b111-e5617ac75331")
+	)
 	(label "using ldo"
 		(at 36.83 102.87 0)
 		(effects
@@ -6139,6 +6395,16 @@
 			(justify right bottom)
 		)
 		(uuid "d6ae355f-1c18-4df2-a2b9-d944fe1802c6")
+	)
+	(label "i think rf1, rf2, and rfin must be the exact same length"
+		(at 81.28 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9459b29-9f3c-44cb-aa04-58486581fb8b")
 	)
 	(label "don't use 12, best not 15"
 		(at 142.24 92.71 0)
@@ -6200,6 +6466,16 @@
 		)
 		(uuid "e6aef3b3-ba6c-43f2-9da3-781ed3fff5d4")
 	)
+	(label "lora is going to flash the led bunch on gpio 8but the trace looks nice"
+		(at 121.92 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efba92ea-6800-4e08-b542-6b2c59665cae")
+	)
 	(label "SX_CS"
 		(at 46.99 87.63 0)
 		(effects
@@ -6219,6 +6495,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8b6847b-62e3-44a3-9b59-f3b13ae1f065")
+	)
+	(label "non standard spi pinout"
+		(at 166.37 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fad792f6-795a-4122-b26b-b98a969572e7")
 	)
 	(label "gpio 8 is led, active low"
 		(at 130.81 22.86 0)
@@ -6264,7 +6550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6888,7 +7174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6968,7 +7254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7739,7 +8025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 46.99 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7788,8 +8074,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Hackclub Symbols:OLED_0.96_128x64")
+		(at 138.43 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d593345-6e5f-4c76-bace-610a1ba1d794")
+		(property "Reference" "U5"
+			(at 143.51 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED_0.96_128x64"
+			(at 143.51 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 158.75 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.96-1_Series_Datasheet.pdf"
+			(at 181.61 130.048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SSD1306 OLED module, 0.96 inch, 128x64, I2C"
+			(at 165.1 132.334 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43c2268a-de48-452a-a9ee-e63e06c414d6")
+		)
+		(pin "2"
+			(uuid "58dda40b-8eb4-4e1d-9005-b6734ec83378")
+		)
+		(pin "3"
+			(uuid "a5552a26-44c7-475c-a07b-8b7441f62746")
+		)
+		(pin "4"
+			(uuid "ebb0cc3c-64f5-4177-9125-4b24a106eba5")
+		)
+		(instances
+			(project "LoRaPuck"
+				(path "/93370abc-9d8d-4dbe-9340-65b8f8e9e18b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 177.8 34.29 0)
+		(at 180.34 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7800,7 +8174,7 @@
 		(fields_autoplaced yes)
 		(uuid "786549f1-c60a-41fd-a171-02502b503d5d")
 		(property "Reference" "#PWR010"
-			(at 177.8 38.1 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7811,7 +8185,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 177.8 29.21 0)
+			(at 180.34 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7821,7 +8195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 34.29 0)
+			(at 180.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 34.29 0)
+			(at 180.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +8217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 177.8 34.29 0)
+			(at 180.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,7 +8273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8059,7 +8433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8141,7 +8515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 30.48 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8405,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8565,7 +8939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 127 0)
 			(hide yes)
 			(show_name no)
@@ -8636,7 +9010,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "3.3pF"
 			(at 134.62 153.6635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8647,7 +9021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8690,6 +9064,84 @@
 			(project "LoRaPuck"
 				(path "/93370abc-9d8d-4dbe-9340-65b8f8e9e18b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.43 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1bbff6a-62a9-40f8-95c0-35ec65f421b0")
+		(property "Reference" "#PWR019"
+			(at 138.43 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 138.43 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 138.43 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7876663c-6ee5-4802-8913-1907c32e9063")
+		)
+		(instances
+			(project "LoRaPuck"
+				(path "/93370abc-9d8d-4dbe-9340-65b8f8e9e18b"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8804,7 +9256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 143.51 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8883,7 +9335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9114,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9235,6 +9687,84 @@
 			(project "LoRaPuck"
 				(path "/93370abc-9d8d-4dbe-9340-65b8f8e9e18b"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1eedb32-5112-4d58-b65e-ba8f5c2df8f4")
+		(property "Reference" "#PWR020"
+			(at 138.43 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b238047f-dcc6-409c-ad60-79d45ba4ee4f")
+		)
+		(instances
+			(project "LoRaPuck"
+				(path "/93370abc-9d8d-4dbe-9340-65b8f8e9e18b"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
