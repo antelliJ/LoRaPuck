@@ -2,6 +2,7 @@
 https://github.com/antelliJ/LoRaPuck
 
 A LoRa project built using an esp32-c3 supermini and an SX1262 for LoRa communication
+<img width="477" height="378" alt="Screenshot 2026-11-08 184657" src="https://github.com/user-attachments/assets/a8284359-269b-4401-9a9a-7cc2ffa513d8" />
 
 ## Features
 - LoRa
@@ -25,8 +26,10 @@ LoRa and MeshCore are cool projects that use radio in an interesting way, and ha
 - Generic SSD1306 0.96" OLED display modules with 2.54mm pin headers
 
 ## Firmware
+### Schematic
+<img width="3508" height="2480" alt="schematic - nov 8" src="https://github.com/user-attachments/assets/fac6aa4d-63c3-4479-9893-f552273012ae" />
+
 ### GPIO Assignment
-(put schematic here as well)
 
 | Signal   |   | ESP32-C3 GPIO |
 |----------|---|---------------|
@@ -70,9 +73,13 @@ Theoretically it should work like any other MeshCore project, I'd personally go 
 `\PCB\production\` are the files used for PCB manufacturing
 
 ### PCB Renders
-(include photos here)
+<img width="477" height="378" alt="Screenshot 2026-11-08 184657" src="https://github.com/user-attachments/assets/a8284359-269b-4401-9a9a-7cc2ffa513d8" />
+<img width="475" height="321" alt="Screenshot 2026-11-08 184707" src="https://github.com/user-attachments/assets/23d595b0-9dd4-4519-8aaa-3788680b50a8" />
+
 
 ## CAD Model
+<img width="277" height="230" alt="Screenshot 2026-11-08 184621" src="https://github.com/user-attachments/assets/c97eb4f1-d8bf-4dd9-9813-c920f1bb24b2" />
+
 Files for a model for the enclosure for this project can be found in `\3dModel\`.
 `\3dModel\` is intended for all 3d printed related files.
 `\3dModel\editable\` contains the editable files made in freecad for the enclosure
@@ -103,7 +110,7 @@ The below is just a static version of that...
 | R1          | 603                                 | 1        | 100               |             |                                                                                                                |
 | U1          | QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm | 1        | SX1262IMLTRT      |             |                                                                                                                |
 | U2          | COMM-SMD_16P-L22.5-W18.0-P2.54-TL   | 1        | ESP32C3-SUPERMINI |             | [https://www.aliexpress.com/item/1005005757810089.html](https://www.aliexpress.com/item/1005005757810089.html) |
-| U5          | PinHeader_1x04_P2.54mm_Vertical     | 1        | OLED_0.96_128x64  |             | https://www.aliexpress.com/item/1005006141235306.html                                                          |
+| U5          | PinHeader_1x04_P2.54mm_Vertical     | 1        | OLED_0.96_128x64  |             | [https://www.aliexpress.com/item/1005006141235306.html](https://www.aliexpress.com/item/1005006141235306.html) |
 | U6          | SOT-363_SC-70-6                     | 1        | PE4259            |             |                                                                                                                |
 | Y1          | Crystal_SMD_3225-4Pin_3.2x2.5mm     | 1        | 32 MHz            |             |                                                                                                                |
 
