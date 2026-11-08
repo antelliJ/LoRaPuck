@@ -6719,7 +6719,7 @@
 		(layer "F.Cu")
 		(uuid "bbe383bc-ada0-44d7-971e-3ef40e48b8d4")
 		(pts
-			(xy 17.5 13.25) (xy 51.5 15.75)
+			(xy 17.5 13.25) (xy 51.5 13.5)
 		)
 		(height -9.5)
 		(orientation 0)

@@ -126,3 +126,6 @@ Firmware a copy from [MeshCore's repository](https://github.com/meshcore-dev/mes
 used [Table to Markdown](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) to make the above BOM in the readme
 
 alongside [Markdown Table Formatter](http://markdowntable.com/) to make the markdown look better while editing source
+
+### AI usage:
+- Drafting PlatformIO commands for building a merged file
