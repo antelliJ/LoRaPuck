@@ -1,7 +1,8 @@
+// antelliPuck/target.cpp
 #include <Arduino.h>
 #include "target.h"
 
-HeltecV4Board board;
+AntelliPuckBoard board;
 
 #if defined(P_LORA_SCLK)
   static SPIClass spi;
@@ -25,7 +26,6 @@ AutoDiscoverRTCClock rtc_clock(fallback_clock);
 
 #ifdef DISPLAY_CLASS
   DISPLAY_CLASS display(NULL);
-  MomentaryButton user_btn(PIN_USER_BTN, 1000, true);
 #endif
 
 bool radio_init() {
@@ -33,6 +33,7 @@ bool radio_init() {
   rtc_clock.begin(Wire);
   
 #if defined(P_LORA_SCLK)
+  spi.begin(P_LORA_SCLK, P_LORA_MISO, P_LORA_MOSI);
   return radio.std_init(&spi);
 #else
   return radio.std_init();

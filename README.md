@@ -33,5 +33,5 @@ idk
 ## References
 
 Built using [this guide](https://blueprint.hackclub.com/starter-projects/lora)
-While looking at supported MeshCore firmware I found [this one](https://github.com/ndoo/ikoka-stick-meshtastic-device) that looks really similar, and I got a lot of inspiration for this readme from that project!
+While looking at supported MeshCore firmware I found [this one](https://github.com/ndoo/ikoka-stick-meshtastic-device) that looks really similar to what I wanted to achieve for this project, and I got a lot of inspiration for this readme from that project!
 [This youtube video](https://www.youtube.com/watch?v=TnRn3Kn_aXg) for learning about RF PCB design
