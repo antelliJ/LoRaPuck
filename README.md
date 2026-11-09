@@ -71,6 +71,8 @@ Theoretically it should work like any other MeshCore project, I'd personally go 
 ## PCB
 `\PCB\` includes files relevant for the schematic, PCB design, and manufacturing. 
 `\PCB\production\` are the files used for PCB manufacturing
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FantelliJ%2FLoRaPuck%2Ftree%2Fmain%2FLoRaPuckPCB)
+
 
 ### PCB Renders
 <img width="477" height="378" alt="Screenshot 2026-11-08 184657" src="https://github.com/user-attachments/assets/a8284359-269b-4401-9a9a-7cc2ffa513d8" />
